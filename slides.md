@@ -1,6 +1,9 @@
--- 
+---
 marp: true
 theme: uncover
+title: Whacky Web Bots
+paginate: true
+_paginate: false # skip page on first slide
 ---
 
 # <!-- fit --> Whacky Web Bots
@@ -11,21 +14,27 @@ theme: uncover
 
 * 1st hour - Intro and background, making a simple program to improve navigation on UIUC Course Website
 
-* 2nd hour - Selenium and having a program control the web browser to collect data.
+* 2nd hour - Selenium and having a program control the web browser to collect data. Ending with ethical considerations and questions.
+
+---
+
+# Time suggestions
+
+* For those following along async or reusing these slides (which is 100% allowed), I've added timing guides throughout the slides as well. These are just suggestions so don't worry if you're not able to finish the work in time. Especially installation stuff, that stuff can be really tricky.
+
+---
+
+# <!-- fit --> Intro (10 minutes)
 
 ---
 
 # About me (general)
 
-* I'm Harsh Deep, a junior studying Statistics and Computer Science at UIUC.
+* I'm Harsh Deep, a junior studying Statistics and Computer Science at UIUC. hdeep2@illinois.edu
 
-* I've spent 5 semesters working as CA helping teach intro CS 125 and generally like teaching and helping people on just about anything.
+* I like teaching: I've spent 5 semesters working as CA helping teach intro CS 125.
 
-* I also have spent many semesters working with professors and grad students in HCI around eye tracking. I've also spent a while working on various open source projects on [Github](https://github.com/harsh183/)
-
-* Outside school I like reading, cats, and thinking critically about a lot of animated content from various countries.
-
-* If you want to ask me questsions about any of this stuff after class feel free as well.
+* I also like open source, hci research (human ai teaming and eyetracking), cats, reading and watching interesting animation from around the world.
 
 ---
 
@@ -37,86 +46,116 @@ theme: uncover
 
 * Automation lets us save time, prevent errors and lets us focus on more important things.
 
-* I used to think they were a gimmick, but then in my first tech intership I created three different bots for extracting event info and social media automation and realized how much it could aid marketing and sales processes at companies.
+---
+
+# Not a gimmick 
+
+* I used to think they were a gimmick
+
+* then in my first tech intership I created three different bots for extracting event info and social media automation
+
+* Not only can they make things easier in your life, they can also create business value.
 
 ---
 
 # What do people use web browser automation for
 
-* Testing systems automatically - at some point it's simply not possible for a large company to retest thousands of pages manually every time someone makes a change.
+* Testing systems automatically
 
-* Gathering information from the internet. Commonly known as Web Scraping. Lots of times companies make special APIs for programmers to access but the majority of the information on the internet doesn't actually doesn't end up in an API.
+* Gathering information from the internet. Mmajority of the information on the internet doesn't actually doesn't end up in an API.
 
-* 
+* Making many poorly organized resources more accessible.
 
 ---
 
-# <!-- fit --> Web Automation
-
-Making Life Simpler
+# <!-- fit --> Navigation aid - Making Life Simpler
 
 ---  
 
-# Code Along Task: Make the UIUC Course Explorer Easier to Navigate (20 minutes)
+# Setup Python (10 minutes)
 
-* Problem: When you use the UIUC Course Website you can't directly jump to the Course you want
+Follow online instructions for your OS at [https://www.python.org/downloads/](https://www.python.org/downloads/).
 
-* Instead: Let's have a bot take an Input from us and then use that information to navigate to the right task.
-
-* We're not going to worry about invalid inputs, just something like `CS 125` or `CWL 114`.
+If you aren't able to get this to work don't worry. This will all be recorded and the slides are all available online. I'll be open to questions after this session over email as well so feel free to ask me questions then. 
 
 ---
 
-# Another more complex approach with JS to the Course Explorer Problem
+# Code Along Task (20 minutes)
+
+* Make the UIUC Course Explorer Easier to Navigate (20 minutes)
+
+* Problem: When you use the UIUC Course Website you can't directly jump to the Course you want
+
+---
+
+* Let's have a bot take an Input from us and then use that information to navigate to the right task.
+
+* We're not going to worry about invalid inputs, just something like "CS 125" or "CWL 114". We take this from the command line which is the most popular way bots take input. 
+
+---
+
+# Exercise 1 (10 minutes)
+
+* Lets say we have a book that we really like named Automate The Boring Stuff with Python, but we want to jump into a chapter directly at once.
+
+---
+
+# Specification
+
+* The url for each chapter has the chapter number in the end "https://automatetheboringstuff.com/2e/chapter12/" from 0 to 20 both included. (Programmers have this weird obession with starting everything from 0)
+
+* Make a program that takes the command line input `automate.py 5` and have the browser jump to the right page.
+
+---
+
+# JS Approach (complex)
 
 * https://gist.github.com/harsh183/4505b4870fb9a003abe5193e0f7b9c71
 
 * In my freshman year I approached this problem another way by using `JavaScript` to run a custom script after the search form was filled out.
 
-* I split up the input into Name and Number and then figured out what URL to let people directly jump to. 
-
-* This is only possible with a language called JavaScript that runs directly on the Browser. This is beyond the scope of this 2 hour class to cover another language but if you want to learn more about web browser automation learning [JavaScript](https://www.freecodecamp.org/) is worth it.
+* This is only possible with a language called JavaScript that runs directly on the Browser. This is beyond the scope of this 2 hour class to cover another language but worth learning.
 
 ---
 
-# <!-- fit --> Scraping
-
-Extracting data
+# <!-- fit --> Web Scrape
 
 ---
 
-# Setup Selenium(20 minutes)
+# Setup Selenium (20 minutes)
 
 If you aren't able to get this to work don't worry. This will all be recorded and the slides are all available online. I'll be open to questions after this session over email as well so feel free to ask me questions then. 
 
-1. Open your command line and type. 
+* Open your command line and type. 
    ```bash
    pip install selenium
    ```
 
-2. Download the webdrivers for [Chrome](https://sites.google.com/a/chromium.org/chromedriver/downloads). You can do this with any web browser of choice but using Chrome makes life simpler.
+---
 
-3. Follow instructions on [here](https://www.selenium.dev/documentation/en/webdriver/driver_requirements/) to set up the Chrome drivers right for your specific OS. If you want to use another web browser this page also has instructions for that.
+* Download the webdrivers for [Chrome](https://sites.google.com/a/chromium.org/chromedriver/downloads).
 
+* Follow instructions on [here](https://www.selenium.dev/documentation/en/webdriver/driver_requirements/) to set up the Chrome drivers right for your specific OS. If you want to use another web browser this page also has instructions for that.
 
 ---
 
-# Code Along Task: Get the names of all the wonderful SAIL 2021 Organizers (20 minutes)
+# Code Along Task (20 minutes)
+
+* Get the names of all the wonderful SAIL 2021 Organizers 
 
 * They're an amazing set of people so perhaps we can make them all a nice thank you message.
 
-* Normally what you'd do is just copy paste their names into a card and the just move on with your lives, but here we use a computer that can operate a web browser for it.
+---
 
-* This can scale even if we have 90 or even 900,000 organizers on one team. That's one of the nice things about computers, they're really good at handling volume.
-
-
-# Exercise 2: 20 minutes 
+# Exercise 2 (10 minutes) 
 
 Feel free to work with others too. If your set up isn't working feel free to just discuss with others. 
 
 * We got everyone's names out of the web page, now lets use the same logic to try to get everyone's descriptions as well.
 
 * Use the code we've written so far as a starting point.
+
+---
 
 * Make sure the descriptions match up with the right people :)
 
@@ -128,21 +167,67 @@ Feel free to work with others too. If your set up isn't working feel free to jus
 
 ---
 
-# Ethical issues and links to some articles to learn more
+# Going further
 
-These are only the tip of the iceberg, but we should be responsible while developing automated tools considering our impact on society.
+* This was just a start of a few simple things you can do combining programming and web browsers.
 
-* Automation can automate a lot of jobs. [I’ve Been Replaced by an Analytics Robot](r4stats.com/2015/05/18/ive-been-replaced-by-an-analytics-robot/)
+* Instead of taking command line inputs we can have a GUI or a config file.
 
-* It is legal now after being in a gray area for a while, but still faces restrictions in many categories. [Web scraping is now legal](https://medium.com/@tjwaterman99/web-scraping-is-now-legal-6bf0e5730a78)
+* Selenium can not just read information, but scroll around pages, navigate to new urls, click items on a page, fill out forms are a variety of complex things. This kind of skill has a lot of demand in industry.
+
+---
+
+# Going further
+
+* Once you learn more about automated testing of code, these kinds of tactics can be used to test web and mobile apps as if the user was actually using them, leading to far more realistic testing.
+
+* You can even incorporate AI into all of this.
+
+---
+
+# <!-- fit --> Ethical issues 
+
+Responsible bot development
+
+---
+
+# Jobs
+
+* Automation can automate a lot of jobs. 
+
+* [I’ve Been Replaced by an Analytics Robot](r4stats.com/2015/05/18/ive-been-replaced-by-an-analytics-robot/)
+
+---
+
+# Legality and court battles
+
+* It is legal now after being in a gray area for a while, but still faces restrictions in many categories.
+
+* Many companies oppose it while many in the public support it.
+
+* [Web scraping is now legal](https://medium.com/@tjwaterman99/web-scraping-is-now-legal-6bf0e5730a78)
+
+---
+
+# Bad Actors
 
 * Bots have the potential to be used in bad ways, for example influencing politics or harassment. [The Social Impact Of Bad Bots And What To Do About Them](https://www.forbes.com/sites/forbestechcouncil/2020/12/04/the-social-impact-of-bad-bots-and-what-to-do-about-them/?sh=4f01f7d459e0) 
 
 ---
 
-# More Resources:
+# Automate the Boring Stuff
 
-* [Automate the Boring Stuff with Python Chapter 12](https://automatetheboringstuff.com/2e/chapter12/) - this chapter goes over a lot more and in general this book is my goto for taking people who know nothing about programming to making useful personal projects that can also be useful in many lines of work.
+* [Automate the Boring Stuff with Python](https://automatetheboringstuff.com) - 
+
+* free online book (with optional paid videos) that first teaches python from scratch
+
+* second half has lots of interesting python projects in automation
+
+* [Automate the Boring Stuff with Python Chapter 12](https://automatetheboringstuff.com/2e/chapter12/) goes into far more detail on web bot stuff. I highly reccomend.
+
+---
+
+# More Docs
 
 * [Selenium Python Docs](https://selenium-python.readthedocs.io/)
 
