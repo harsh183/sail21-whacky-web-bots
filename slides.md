@@ -22,7 +22,7 @@ Email: hdeep2@illinois.edu
 
 ---
 
-# Time suggestions
+# Time Suggestions
 
 * For those following along async or reusing these slides (which is 100% allowed), I've added timing guides throughout the slides as well. These are just suggestions so don't worry if you're not able to finish the work in time. Especially installation stuff, that stuff can be really tricky.
 
@@ -32,7 +32,7 @@ Email: hdeep2@illinois.edu
 
 ---
 
-# About me (general)
+# About Me (general)
 
 * I'm Harsh Deep, a junior studying Statistics and Computer Science at UIUC. hdeep2@illinois.edu
 
@@ -42,7 +42,7 @@ Email: hdeep2@illinois.edu
 
 ---
 
-# Why web bots
+# Why Web Bots
 
 * Almost everything is on the internet now. A gold mine of information exists which can enable us to do so many things.
 
@@ -52,7 +52,7 @@ Email: hdeep2@illinois.edu
 
 ---
 
-# Not a gimmick 
+# Not A Gimmick 
 
 * I used to think they were a gimmick
 
@@ -62,17 +62,17 @@ Email: hdeep2@illinois.edu
 
 ---
 
-# What do people use web browser automation for
+# Uses
 
 * Testing systems automatically
 
-* Gathering information from the internet. Mmajority of the information on the internet doesn't actually doesn't end up in an API.
+* Gathering information from the internet. Most of the internet is not on an API.
 
 * Making many poorly organized resources more accessible.
 
 ---
 
-# <!-- fit --> Opening browsers
+# <!-- fit --> Opening Browsers
 ---  
 
 # Setup Python (15 minutes)
@@ -84,7 +84,7 @@ Email: hdeep2@illinois.edu
 
 ---
 
-# Couldn't get it to work
+# Couldn't Get It To Work
 
 * Don't worry. 
 
@@ -116,7 +116,7 @@ Email: hdeep2@illinois.edu
 
 ---
 
-# Specification
+# Spec
 
 * The url for each chapter has the chapter number in the end "https://automatetheboringstuff.com/2e/chapter12/" from 0 to 20 both included. 
 
@@ -180,7 +180,7 @@ Feel free to work with others too. If your set up isn't working feel free to jus
 
 ---
 
-# Going further
+# Going Further
 
 * Things can get more complex.
 
@@ -190,9 +190,9 @@ Feel free to work with others too. If your set up isn't working feel free to jus
 
 ---
 
-# Going further
+# Going Further
 
-* Realistic testing: as if someone was actually using it
+* Test frameworks
 
 * You can even incorporate AI into all of this.
 
@@ -212,9 +212,9 @@ Responsible bot development
 
 ---
 
-# Legality and court battles
+# Legality and Court Battles
 
-* It is legal still restricted.
+* It is legal but still restricted.
 
 * Many companies oppose it while many in the public support it.
 
@@ -228,7 +228,7 @@ Responsible bot development
 
 ---
 
-# Covid vaccines
+# Covid Vaccines
 
 * People have also started using web bots to get vaccines faster. [Want a vaccination appointment? It helps to know a Python programmer](https://www.nbcnews.com/tech/security/want-vaccination-appointment-helps-know-python-programmer-rcna457)
 
