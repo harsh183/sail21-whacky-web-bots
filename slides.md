@@ -72,7 +72,7 @@ _paginate: false # skip page on first slide
 
 ---  
 
-# Setup Python (10 minutes)
+# Setup Python (15 minutes)
 
 Follow online instructions for your OS at [https://www.python.org/downloads/](https://www.python.org/downloads/).
 
@@ -114,7 +114,7 @@ If you aren't able to get this to work don't worry. This will all be recorded an
 
 * In my freshman year I approached this problem another way by using `JavaScript` to run a custom script after the search form was filled out.
 
-* This is only possible with a language called JavaScript that runs directly on the Browser. This is beyond the scope of this 2 hour class to cover another language but worth learning.
+* This is only possible with a language called JavaScript that runs directly on the Browser. This is beyond the scope of this 2 hour class to cover another language but worth learning in the area of web automation.
 
 ---
 
@@ -129,14 +129,8 @@ If you aren't able to get this to work don't worry. This will all be recorded an
 * Open your command line and type. 
    ```bash
    pip install selenium
+   pip install webdriver_manager
    ```
-
----
-
-* Download the webdrivers for [Chrome](https://sites.google.com/a/chromium.org/chromedriver/downloads).
-
-* Follow instructions on [here](https://www.selenium.dev/documentation/en/webdriver/driver_requirements/) to set up the Chrome drivers right for your specific OS. If you want to use another web browser this page also has instructions for that.
-
 ---
 
 # Code Along Task (20 minutes)
@@ -173,7 +167,7 @@ Feel free to work with others too. If your set up isn't working feel free to jus
 
 * Instead of taking command line inputs we can have a GUI or a config file.
 
-* Selenium can not just read information, but scroll around pages, navigate to new urls, click items on a page, fill out forms are a variety of complex things. This kind of skill has a lot of demand in industry.
+* Selenium can not just read information, but scroll around pages, fill out forms are a variety of complex things. This kind of skill has a lot of demand in industry yet very few people in college are learning it.
 
 ---
 
@@ -215,6 +209,13 @@ Responsible bot development
 
 ---
 
+# Covid vaccines
+
+* People have also started using web bots to get vaccines faster. [Want a vaccination appointment? It helps to know a Python programmer](https://www.nbcnews.com/tech/security/want-vaccination-appointment-helps-know-python-programmer-rcna457)
+
+* Innovative
+
+* But also not everyone has access to this.
 # Automate the Boring Stuff
 
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com) - 
