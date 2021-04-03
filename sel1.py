@@ -16,9 +16,4 @@ name_elements = driver.find_elements_by_class_name("name")
 staff_names = [name_el.text for name_el in name_elements] 
 print(staff_names)
 
-# Exercise
-des_elements = driver.find_elements_by_class_name("text")
-staff_descriptions = [des_el.text for des_el in des_elements] 
-print(staff_descriptions)
-
 breakpoint()
