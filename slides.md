@@ -8,6 +8,8 @@ _paginate: false # skip page on first slide
 
 # <!-- fit --> Whacky Web Bots
 
+Note: Recorded for you all to be able to watch later
+
 ---
 
 # Outline
@@ -68,13 +70,14 @@ _paginate: false # skip page on first slide
 
 ---
 
-# <!-- fit --> Navigation aid - Making Life Simpler
-
+# <!-- fit --> Opening browsers
 ---  
 
 # Setup Python (15 minutes)
 
-Follow online instructions for your OS at [https://www.python.org/downloads/](https://www.python.org/downloads/).
+---
+
+# Couldn't get it to work
 
 If you aren't able to get this to work don't worry. This will all be recorded and the slides are all available online. I'll be open to questions after this session over email as well so feel free to ask me questions then. 
 
@@ -118,11 +121,11 @@ If you aren't able to get this to work don't worry. This will all be recorded an
 
 ---
 
-# <!-- fit --> Web Scrape
+# <!-- fit --> Selenium
 
 ---
 
-# Setup Selenium (20 minutes)
+# Setup Selenium (15 minutes)
 
 If you aren't able to get this to work don't worry. This will all be recorded and the slides are all available online. I'll be open to questions after this session over email as well so feel free to ask me questions then. 
 
