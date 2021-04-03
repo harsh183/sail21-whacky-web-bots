@@ -75,6 +75,11 @@ Note: Recorded for you all to be able to watch later
 
 # Setup Python (15 minutes)
 
+
+- Windows: https://www.python.org/downloads/windows/ (select installer and make sure to add to path). https://phoenixnap.com/kb/how-to-install-python-3-windows - this guide is pretty useful too.
+- MacOSX: https://docs.python-guide.org/starting/install3/osx/
+- Linux: https://docs.python-guide.org/starting/install3/linux/
+
 ---
 
 # Couldn't get it to work
