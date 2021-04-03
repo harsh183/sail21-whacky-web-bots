@@ -17,6 +17,10 @@ name_tags = driver.find_elements_by_class_name("MuiTypography-h4")
 names = [n.text for n in name_tags][5:]
 print(names)
 
-# Exercise: Get people's roles as well
+role_tags = driver.find_elements_by_class_name("MuiTypography-body2")
+roles = [r.text for r in role_tags]
+for i in range(len(names)):
+    print(names[i], roles[i])
+
 
 breakpoint()
