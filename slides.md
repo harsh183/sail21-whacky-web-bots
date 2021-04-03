@@ -10,6 +10,8 @@ _paginate: false # skip page on first slide
 
 Note: Recorded for you all to be able to watch later
 
+Email: hdeep2@illinois.edu
+
 ---
 
 # Outline
@@ -250,3 +252,9 @@ Responsible bot development
 * [Selenium Python Docs](https://selenium-python.readthedocs.io/)
 
 * [Freecodecamp - Learn JavaScript](https://www.freecodecamp.org/)
+
+---
+
+# Contact
+
+Email: hdeep2@illinois.edu
