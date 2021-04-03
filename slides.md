@@ -86,7 +86,11 @@ Email: hdeep2@illinois.edu
 
 # Couldn't get it to work
 
-If you aren't able to get this to work don't worry. This will all be recorded and the slides are all available online. I'll be open to questions after this session over email as well so feel free to ask me questions then. 
+* Don't worry. 
+
+* This will all be recorded and the slides are all available online. 
+
+* Ask me questions after email later too.
 
 ---
 
@@ -98,17 +102,15 @@ If you aren't able to get this to work don't worry. This will all be recorded an
 
 ---
 
-* Let's have a bot take an Input from us and then use that information to navigate to the right task.
+* Take command line input - common in real life scenario.
 
-* We're not going to worry about invalid inputs, just something like "CS 125" or "CWL 114". 
-
-* We take this from the command line which is the most popular way bots take input. 
+* Valid upper case inputs like "CS 125" or "CWL 114". 
 
 * Code: https://github.com/harsh183/sail21-whacky-web-bots/blob/main/course_explore.py
 
 ---
 
-# Exercise 1 (10 minutes)
+# Exercise 1 (10 minutes) - Chapter goto
 
 * Lets say we have a book that we really like named Automate The Boring Stuff with Python, but we want to jump into a chapter directly at once.
 
@@ -179,7 +181,7 @@ Feel free to work with others too. If your set up isn't working feel free to jus
 
 # Going further
 
-* This was just a start of a few simple things you can do combining programming and web browsers.
+* Things can get more complex.
 
 * Instead of taking command line inputs we can have a GUI or a config file.
 
@@ -211,7 +213,7 @@ Responsible bot development
 
 # Legality and court battles
 
-* It is legal now after being in a gray area for a while, but still faces restrictions in many categories.
+* It is legal still restricted.
 
 * Many companies oppose it while many in the public support it.
 
