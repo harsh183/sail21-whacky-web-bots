@@ -118,7 +118,9 @@ Email: hdeep2@illinois.edu
 
 # Specification
 
-* The url for each chapter has the chapter number in the end "https://automatetheboringstuff.com/2e/chapter12/" from 0 to 20 both included. (Programmers have this weird obession with starting everything from 0)
+* The url for each chapter has the chapter number in the end "https://automatetheboringstuff.com/2e/chapter12/" from 0 to 20 both included. 
+
+* (Programmers have this weird obession with starting everything from 0)
 
 * Make a program that takes the command line input `automate.py 5` and have the browser jump to the right page.
 
@@ -128,10 +130,9 @@ Email: hdeep2@illinois.edu
 
 * https://gist.github.com/harsh183/4505b4870fb9a003abe5193e0f7b9c71
 
-* In my freshman year I approached this problem another way by using `JavaScript` to run a custom script after the search form was filled out.
+* Run a custom script after the search form was filled out.
 
-* This is only possible with a language called JavaScript that runs directly on the Browser. This is beyond the scope of this 2 hour class to cover another language but worth learning in the area of web automation.
-
+* Using JavaScript that runs directly on the Browser. Beyond scope of the class but useful.
 ---
 
 # <!-- fit --> Selenium
