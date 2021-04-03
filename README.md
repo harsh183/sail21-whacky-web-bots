@@ -1,4 +1,8 @@
-# Whacky Web Bots
+# Whacky Web Bots Workshop
+
+Slides in markdown and powered by [marp](https://github.com/marp-team/marp).
+
+Originally made for UIUC [CS Sail 21](https://sail.cs.illinois.edu/).
 
 ## Install Python
 
@@ -7,13 +11,15 @@
 - Linux: https://docs.python-guide.org/starting/install3/linux/ or try your distro package installer
 - Do `python --version` to check which you got. If it says `2.x` then you will have to use `python3 scriptname.py`
 
+## CS 125 Version
+
+Slides are [here](https://whacky-web-bots.netlify.app/125.html) and the programs are in this repo as [course_explore.py](https://github.com/harsh183/sail21-whacky-web-bots/blob/main/course_explore.py), [book.py](https://github.com/harsh183/sail21-whacky-web-bots/blob/main/book.py), and [125staff.py](https://github.com/harsh183/sail21-whacky-web-bots/blob/main/125staff.py).
+
 ## UIUC SAIL 2021 Version
 
-Slides for [CS Sail 21](https://sail.cs.illinois.edu/) at UIUC workshop on introducing web bots. Slides in markdown and powered by [marp](https://github.com/marp-team/marp)
+Slides are [here](https://whacky-web-bots.netlify.app/) and the programs are in this repo as [course_explore.py](https://github.com/harsh183/sail21-whacky-web-bots/blob/main/course_explore.py), [book.py](https://github.com/harsh183/sail21-whacky-web-bots/blob/main/book.py), and [sel1.py](https://github.com/harsh183/sail21-whacky-web-bots/blob/main/sel1.py).
 
-Slides url: https://whacky-web-bots.netlify.app/
-
-### Outline
+## Outline
 
 Hour 1: Opening web browsers (using python stdlib `webbrowser`)
 * Introduction and installation of python
@@ -27,7 +33,7 @@ Hour 2: Selenium
 * Ethical issues
 * Closing remarks
 
-### Dev
+## Dev
 
 We use `marp` which you can install from `npm`. 
 
