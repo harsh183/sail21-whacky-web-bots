@@ -98,7 +98,11 @@ If you aren't able to get this to work don't worry. This will all be recorded an
 
 * Let's have a bot take an Input from us and then use that information to navigate to the right task.
 
-* We're not going to worry about invalid inputs, just something like "CS 125" or "CWL 114". We take this from the command line which is the most popular way bots take input. 
+* We're not going to worry about invalid inputs, just something like "CS 125" or "CWL 114". 
+
+* We take this from the command line which is the most popular way bots take input. 
+
+* Code: https://github.com/harsh183/sail21-whacky-web-bots/blob/main/course_explore.py
 
 ---
 
@@ -147,6 +151,8 @@ If you aren't able to get this to work don't worry. This will all be recorded an
 
 * They're an amazing set of people so perhaps we can make them all a nice thank you message.
 
+* Final code: https://github.com/harsh183/sail21-whacky-web-bots/blob/main/sel1.py
+
 ---
 
 # Exercise 2 (10 minutes) 
@@ -175,13 +181,13 @@ Feel free to work with others too. If your set up isn't working feel free to jus
 
 * Instead of taking command line inputs we can have a GUI or a config file.
 
-* Selenium can not just read information, but scroll around pages, fill out forms are a variety of complex things. This kind of skill has a lot of demand in industry yet very few people in college are learning it.
+* More: scrolling, forms, tickets
 
 ---
 
 # Going further
 
-* Once you learn more about automated testing of code, these kinds of tactics can be used to test web and mobile apps as if the user was actually using them, leading to far more realistic testing.
+* Realistic testing: as if someone was actually using it
 
 * You can even incorporate AI into all of this.
 
@@ -224,6 +230,9 @@ Responsible bot development
 * Innovative
 
 * But also not everyone has access to this.
+
+---
+
 # Automate the Boring Stuff
 
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com) - 
