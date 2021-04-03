@@ -77,10 +77,10 @@ Email: hdeep2@illinois.edu
 
 # Setup Python (15 minutes)
 
-
 - Windows: https://www.python.org/downloads/windows/ (select installer and make sure to add to path). https://phoenixnap.com/kb/how-to-install-python-3-windows - this guide is pretty useful too.
 - MacOSX: https://docs.python-guide.org/starting/install3/osx/
 - Linux: https://docs.python-guide.org/starting/install3/linux/
+- Do `python --version` to check which you got. If it says `2.x` then you will have to use `python3 scriptname.py`
 
 ---
 
@@ -143,7 +143,7 @@ Email: hdeep2@illinois.edu
 
 If you aren't able to get this to work don't worry. This will all be recorded and the slides are all available online. I'll be open to questions after this session over email as well so feel free to ask me questions then. 
 
-* Open your command line and type. 
+* Open your command line and type. Do `pip3` instead if you have been using `python3` so far.
    ```bash
    pip install selenium
    pip install webdriver_manager
