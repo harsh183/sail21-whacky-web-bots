@@ -4,6 +4,8 @@ Slides in markdown and powered by [marp](https://github.com/marp-team/marp).
 
 Originally made for UIUC [CS Sail 21](https://sail.cs.illinois.edu/).
 
+ CC0-1.0 License - aka reuse it for whatever. If you do use it I'd like to see it though :)
+
 ## Install Python
 
 - Windows: https://www.python.org/downloads/windows/ (select installer and make sure to add to path). https://phoenixnap.com/kb/how-to-install-python-3-windows - this guide is pretty useful too.
