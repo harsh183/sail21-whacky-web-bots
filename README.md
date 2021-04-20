@@ -1,8 +1,6 @@
 # Whacky Web Bots Workshop
 
-Slides in markdown and powered by [marp](https://github.com/marp-team/marp).
-
-Originally made for UIUC [CS Sail 21](https://sail.cs.illinois.edu/).
+Learn about embracing the power of web browsers, all powered by the magic of Python. In this workshop, you will learn about using `webbrowser` and `selenium` to take control of your web browser via Python commands. Web automation is useful for automated testing, scraping data, getting concert tickets, filling in tedious forms or just making your life easier. This is also a helpful skill in the industry where small automation scripts can generate lots of business value, like automating tedious jobs or generating leads. Plus, it's flashy and fun to show to people :)
 
  CC0-1.0 License - aka reuse it for whatever. If you do use it I'd like to see it though :)
  
@@ -58,6 +56,10 @@ Hour 2: Selenium
 Note: Some versions are shortened to one hour for availability removing the starting and ending fluff and some installation/break time.
 
 ## Dev
+
+Slides in markdown and powered by [marp](https://github.com/marp-team/marp).
+
+Originally made for UIUC [CS Sail 21](https://sail.cs.illinois.edu/).
 
 Just write the slides and commit. Github actions takes care of the rest via `marp-action`. 
 
