@@ -5,13 +5,30 @@ Slides in markdown and powered by [marp](https://github.com/marp-team/marp).
 Originally made for UIUC [CS Sail 21](https://sail.cs.illinois.edu/).
 
  CC0-1.0 License - aka reuse it for whatever. If you do use it I'd like to see it though :)
+ 
+## Setup
 
-## Install Python
+Follow these two steps before the workshop. There is some time at the start to sort out some issues but it's better to come prepared.
+
+### Install Python3
 
 - Windows: https://www.python.org/downloads/windows/ (select installer and make sure to add to path). https://phoenixnap.com/kb/how-to-install-python-3-windows - this guide is pretty useful too.
 - MacOSX: https://docs.python-guide.org/starting/install3/osx/ or try `homebrew`
 - Linux: https://docs.python-guide.org/starting/install3/linux/ or try your distro package installer
 - Do `python --version` to check which you got. If it says `2.x` then you will have to use `python3 scriptname.py`
+
+### Install Selenium
+
+If you did `python3` earlier instead of `python` here you will have to use `pip3` instead of `pip`.
+
+```bash
+pip install selenium
+pip install webdriver_manager
+```
+
+## University of Melbourne DSC Version
+
+Slides are [here](https://whacky-web-bots.netlify.app/unimelb.html) and the programs are in this repo as [handbook_mel.py](https://github.com/harsh183/sail21-whacky-web-bots/blob/main/handbook_mel.py), [book.py](https://github.com/harsh183/sail21-whacky-web-bots/blob/main/book.py), and [mel_dsc.py](ttps://github.com/harsh183/sail21-whacky-web-bots/blob/main/mel_dsc.py).
 
 ## CS 125 Version
 
@@ -20,10 +37,6 @@ Slides are [here](https://whacky-web-bots.netlify.app/125.html) and the programs
 ## UIUC SAIL 2021 Version
 
 Slides are [here](https://whacky-web-bots.netlify.app/) and the programs are in this repo as [course_explore.py](https://github.com/harsh183/sail21-whacky-web-bots/blob/main/course_explore.py), [book.py](https://github.com/harsh183/sail21-whacky-web-bots/blob/main/book.py), and [sel1.py](https://github.com/harsh183/sail21-whacky-web-bots/blob/main/sel1.py).
-
-## University of Melbourne DSC Version
-
-Slides are [here](https://whacky-web-bots.netlify.app/unimelb.html) and the programs are in this repo as [handbook_mel.py](https://github.com/harsh183/sail21-whacky-web-bots/blob/main/handbook_mel.py), [book.py](https://github.com/harsh183/sail21-whacky-web-bots/blob/main/book.py), and [mel_dsc.py](ttps://github.com/harsh183/sail21-whacky-web-bots/blob/main/mel_dsc.py).
 
 ## Outline
 
