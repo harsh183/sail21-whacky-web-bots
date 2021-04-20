@@ -27,7 +27,7 @@ jobs:
 
       - name: marp-action
         env: 
-          MARP_ARGS: "-I . --output ."
+          MARP_ARGS: ""
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           PUBLISH_TO_BRANCH: master
