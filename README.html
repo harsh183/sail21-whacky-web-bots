@@ -13,19 +13,26 @@
 <p>Slides in markdown and powered by <a href="https://github.com/marp-team/marp">marp</a>.</p>
 <p>Originally made for UIUC <a href="https://sail.cs.illinois.edu/">CS Sail 21</a>.</p>
 <p>CC0-1.0 License - aka reuse it for whatever. If you do use it I'd like to see it though :)</p>
-<h2>Install Python</h2>
+<h2>Setup</h2>
+<p>Follow these two steps before the workshop. There is some time at the start to sort out some issues but it's better to come prepared.</p>
+<h3>Install Python3</h3>
 <ul>
 <li>Windows: <a href="https://www.python.org/downloads/windows/">https://www.python.org/downloads/windows/</a> (select installer and make sure to add to path). <a href="https://phoenixnap.com/kb/how-to-install-python-3-windows">https://phoenixnap.com/kb/how-to-install-python-3-windows</a> - this guide is pretty useful too.</li>
 <li>MacOSX: <a href="https://docs.python-guide.org/starting/install3/osx/">https://docs.python-guide.org/starting/install3/osx/</a> or try <code>homebrew</code></li>
 <li>Linux: <a href="https://docs.python-guide.org/starting/install3/linux/">https://docs.python-guide.org/starting/install3/linux/</a> or try your distro package installer</li>
 <li>Do <code>python --version</code> to check which you got. If it says <code>2.x</code> then you will have to use <code>python3 scriptname.py</code></li>
 </ul>
+<h3>Install Selenium</h3>
+<p>If you did <code>python3</code> earlier instead of <code>python</code> here you will have to use <code>pip3</code> instead of <code>pip</code>.</p>
+<pre><code class="language-bash"><svg data-marp-fitting="svg" data-marp-fitting-code><foreignObject><span data-marp-fitting-svg-content><span data-marp-fitting-svg-content-wrap>pip install selenium
+pip install webdriver_manager
+</span></span></foreignObject></svg></code></pre>
+<h2>University of Melbourne DSC Version</h2>
+<p>Slides are <a href="https://whacky-web-bots.netlify.app/unimelb.html">here</a> and the programs are in this repo as <a href="https://github.com/harsh183/sail21-whacky-web-bots/blob/main/handbook_mel.py">handbook_mel.py</a>, <a href="https://github.com/harsh183/sail21-whacky-web-bots/blob/main/book.py">book.py</a>, and <a href="ttps://github.com/harsh183/sail21-whacky-web-bots/blob/main/mel_dsc.py">mel_dsc.py</a>.</p>
 <h2>CS 125 Version</h2>
 <p>Slides are <a href="https://whacky-web-bots.netlify.app/125.html">here</a> and the programs are in this repo as <a href="https://github.com/harsh183/sail21-whacky-web-bots/blob/main/course_explore.py">course_explore.py</a>, <a href="https://github.com/harsh183/sail21-whacky-web-bots/blob/main/book.py">book.py</a>, and <a href="https://github.com/harsh183/sail21-whacky-web-bots/blob/main/125staff.py">125staff.py</a>.</p>
 <h2>UIUC SAIL 2021 Version</h2>
 <p>Slides are <a href="https://whacky-web-bots.netlify.app/">here</a> and the programs are in this repo as <a href="https://github.com/harsh183/sail21-whacky-web-bots/blob/main/course_explore.py">course_explore.py</a>, <a href="https://github.com/harsh183/sail21-whacky-web-bots/blob/main/book.py">book.py</a>, and <a href="https://github.com/harsh183/sail21-whacky-web-bots/blob/main/sel1.py">sel1.py</a>.</p>
-<h2>University of Melbourne DSC Version</h2>
-<p>Slides are <a href="https://whacky-web-bots.netlify.app/unimelb.html">here</a> and the programs are in this repo as <a href="https://github.com/harsh183/sail21-whacky-web-bots/blob/main/handbook_mel.py">handbook_mel.py</a>, <a href="https://github.com/harsh183/sail21-whacky-web-bots/blob/main/book.py">book.py</a>, and <a href="ttps://github.com/harsh183/sail21-whacky-web-bots/blob/main/mel_dsc.py">mel_dsc.py</a>.</p>
 <h2>Outline</h2>
 <p>Hour 1: Opening web browsers (using python stdlib <code>webbrowser</code>)</p>
 <ul>
