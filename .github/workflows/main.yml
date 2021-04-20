@@ -30,6 +30,6 @@ jobs:
           MARP_ARGS: "."
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-          PUBLISH_TO_BRANCH: master
+          PUBLISH_TO_BRANCH: main
           BASE_URL: https://whacky-web-bots.netlify.app/
         uses: ralexander-phi/marp-action@0.2
