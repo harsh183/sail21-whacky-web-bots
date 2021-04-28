@@ -1,9 +1,12 @@
+# CC0 1.0 Universal - Harsh Deep
+# This program takes gets the names of all the unimelb DSC team members
+
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import time 
 
 driver = webdriver.Chrome(ChromeDriverManager().install())
-driver.get("https://dsc.community.dev/university-of-melbourne/")
+driver.get("BASE_URL")
 
 buttons = driver.find_elements_by_class_name("chapter_section_scroll")
 buttons[3].click()

@@ -1,3 +1,6 @@
+# CC0 1.0 Universal - Harsh Deep
+# This program takes gets the names and roles of all the unimelb DSC team members
+
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import time 

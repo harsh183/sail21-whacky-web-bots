@@ -1,3 +1,6 @@
+# CC0 1.0 Universal - Harsh Deep
+# This program takes the name of a chapter and opens the browser there.
+
 import webbrowser
 import sys
 

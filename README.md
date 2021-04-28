@@ -34,7 +34,7 @@ Slides are [here](https://whacky-web-bots.netlify.app/dist/125.html) and the pro
 
 ## UIUC SAIL 2021 Version
 
-Slides are [here](https://whacky-web-bots.netlify.app/) and the programs are the programs are [here](https://github.com/harsh183/sail21-whacky-web-bots/tree/main/workshop_code/sail21).
+Slides are [here](https://whacky-web-bots.netlify.app/dist/sail.html) and the programs are the programs are [here](https://github.com/harsh183/sail21-whacky-web-bots/tree/main/workshop_code/sail21).
 
 ## Outline
 
