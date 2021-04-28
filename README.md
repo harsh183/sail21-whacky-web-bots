@@ -26,15 +26,15 @@ pip install webdriver_manager
 
 ## University of Melbourne DSC Version
 
-Slides are [here](https://whacky-web-bots.netlify.app/dist/melb.html) and the programs are [here](https://github.com/harsh183/sail21-whacky-web-bots/tree/main/workshop_code/unimelb).
+Slides are [here](https://wacky-web-bots.netlify.app/dist/melb.html) and the programs are [here](https://github.com/harsh183/sail21-whacky-web-bots/tree/main/workshop_code/unimelb).
 
 ## CS 125 Version
 
-Slides are [here](https://whacky-web-bots.netlify.app/dist/125.html) and the programs are [here](https://github.com/harsh183/sail21-whacky-web-bots/tree/main/workshop_code/cs125).
+Slides are [here](https://wacky-web-bots.netlify.app/dist/125.html) and the programs are [here](https://github.com/harsh183/sail21-whacky-web-bots/tree/main/workshop_code/cs125).
 
 ## UIUC SAIL 2021 Version
 
-Slides are [here](https://whacky-web-bots.netlify.app/dist/sail.html) and the programs are the programs are [here](https://github.com/harsh183/sail21-whacky-web-bots/tree/main/workshop_code/sail21).
+Slides are [here](https://wacky-web-bots.netlify.app/dist/sail.html) and the programs are the programs are [here](https://github.com/harsh183/sail21-whacky-web-bots/tree/main/workshop_code/sail21).
 
 ## Outline
 
