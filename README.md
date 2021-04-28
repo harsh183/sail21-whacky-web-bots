@@ -1,4 +1,4 @@
-# Whacky Web Bots Workshop
+# Wacky Web Bots Workshop
 
 Learn about embracing the power of web browsers, all powered by the magic of Python. In this workshop, you will learn about using `webbrowser` and `selenium` to take control of your web browser via Python commands. Web automation is useful for automated testing, scraping data, getting concert tickets, filling in tedious forms or just making your life easier. This is also a helpful skill in the industry where small automation scripts can generate lots of business value, like automating tedious jobs or generating leads. Plus, it's flashy and fun to show to people :)
 
@@ -26,24 +26,26 @@ pip install webdriver_manager
 
 ## University of Melbourne DSC Version
 
-Slides are [here](https://whacky-web-bots.netlify.app/unimelb.html) and the programs are in this repo as [handbook_mel.py](https://github.com/harsh183/sail21-whacky-web-bots/blob/main/handbook_mel.py), [book.py](https://github.com/harsh183/sail21-whacky-web-bots/blob/main/book.py), and [mel_dsc.py](ttps://github.com/harsh183/sail21-whacky-web-bots/blob/main/mel_dsc.py).
+Slides are [here](https://whacky-web-bots.netlify.app/dist/melb.html) and the programs are [here](https://github.com/harsh183/sail21-whacky-web-bots/tree/main/workshop_code/unimelb).
 
 ## CS 125 Version
 
-Slides are [here](https://whacky-web-bots.netlify.app/125.html) and the programs are in this repo as [course_explore.py](https://github.com/harsh183/sail21-whacky-web-bots/blob/main/course_explore.py), [book.py](https://github.com/harsh183/sail21-whacky-web-bots/blob/main/book.py), and [125staff.py](https://github.com/harsh183/sail21-whacky-web-bots/blob/main/125staff.py).
+Slides are [here](https://whacky-web-bots.netlify.app/dist/125.html) and the programs are [here](https://github.com/harsh183/sail21-whacky-web-bots/tree/main/workshop_code/cs125).
 
 ## UIUC SAIL 2021 Version
 
-Slides are [here](https://whacky-web-bots.netlify.app/) and the programs are in this repo as [course_explore.py](https://github.com/harsh183/sail21-whacky-web-bots/blob/main/course_explore.py), [book.py](https://github.com/harsh183/sail21-whacky-web-bots/blob/main/book.py), and [sel1.py](https://github.com/harsh183/sail21-whacky-web-bots/blob/main/sel1.py).
+Slides are [here](https://whacky-web-bots.netlify.app/) and the programs are the programs are [here](https://github.com/harsh183/sail21-whacky-web-bots/tree/main/workshop_code/sail21).
 
 ## Outline
 
-Hour 1: Opening web browsers (using python stdlib `webbrowser`)
+### Opening web browsers 
+
+(using python stdlib `webbrowser`)
 * Introduction and installation of python
 * Code Along Task: Take a command line argument like `CS 125` and open the web browser to the university course explorer page.
 * Exercise: Take a chapter number for the book Automate the Boring Stuff with Python and open directly to that webpage
 
-Hour 2: Selenium 
+### Selenium 
 
 * Selenium `pip` install
   - (UIUC SAIL version) Code Along Task: Open up the CS Sail homepage, click the navbar `Staff` link, hover the mouse on the `overlay` and select all staff names because we want to make them a thank you card.
@@ -53,7 +55,7 @@ Hour 2: Selenium
 * Ethical issues
 * Closing remarks
 
-Note: Some versions are shortened to one hour for availability removing the starting and ending fluff and some installation/break time.
+Note: Time adjusted to 1/2 hours as needed.
 
 ## Dev
 
@@ -65,14 +67,6 @@ Just write the slides and commit. Github actions takes care of the rest via `mar
 
 For local compile, we use `marp` which you can install from `npm`.
 
-**For CS SAIL slides**
-
 ```bash
-marp slides.md -o index.html
-```
-
-**For CS 125 slide**
-
-```bash
-marp 125.md -o 125.html
+$ marp -I slides/ --output dist/
 ```

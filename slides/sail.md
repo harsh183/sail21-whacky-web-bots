@@ -80,7 +80,7 @@ Email: hdeep2@illinois.edu
 - Windows: https://www.python.org/downloads/windows/ (select installer and make sure to add to path). https://phoenixnap.com/kb/how-to-install-python-3-windows - this guide is pretty useful too.
 - MacOSX: https://docs.python-guide.org/starting/install3/osx/
 - Linux: https://docs.python-guide.org/starting/install3/linux/
-- Do `python --version` to check. If it says `2.x` then run code with `python3 scriptname.py`
+- Do `python --version` to check which you got. If it says `2.x` then you will have to use `python3 scriptname.py`
 
 ---
 
@@ -112,11 +112,17 @@ Email: hdeep2@illinois.edu
 
 # Exercise 1 (10 minutes) - Chapter goto
 
-* We want to jump to chapters of Automate The Boring Stuff with Python
+* Lets say we have a book that we really like named Automate The Boring Stuff with Python, but we want to jump into a chapter directly at once.
+
+---
+
+# Spec
 
 * The url for each chapter has the chapter number in the end "https://automatetheboringstuff.com/2e/chapter12/" from 0 to 20 both included. 
 
-* Command line input `automate.py 5` 
+* (Programmers have this weird obession with starting everything from 0)
+
+* Make a program that takes the command line input `automate.py 5` and have the browser jump to the right page.
 
 ---
 
@@ -146,21 +152,31 @@ If you aren't able to get this to work don't worry. This will all be recorded an
 
 # Code Along Task (20 minutes)
 
-* Get the names of all the wonderful CS 125 Staff
+* Get the names of all the wonderful SAIL 2021 Organizers 
 
 * They're an amazing set of people so perhaps we can make them all a nice thank you message.
 
-* Final code: https://github.com/harsh183/sail21-whacky-web-bots/blob/main/125staff.py
+* Final code: https://github.com/harsh183/sail21-whacky-web-bots/blob/main/sel1.py
 
 ---
 
 # Exercise 2 (10 minutes) 
 
-* Feel free to work with others too. If your set up isn't working feel free to just discuss with others. 
+Feel free to work with others too. If your set up isn't working feel free to just discuss with others. 
 
-* We got everyone's names out of the web page, now lets use the same logic to try to get everyone's roles as well.
+* We got everyone's names out of the web page, now lets use the same logic to try to get everyone's descriptions as well.
 
 * Use the code we've written so far as a starting point.
+
+---
+
+* Make sure the descriptions match up with the right people :)
+
+* Don't worry if you aren't able get this in time, the point is to get you thinking in the right direction.
+
+* If you aren't able to get this into code, having just a conceptual explaination is fine too. Focus on using inspect element to figure out which selectors can give the right data.
+
+<!-- TODO: Insert link to repo with close ish example code -->
 
 ---
 
