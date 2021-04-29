@@ -16,7 +16,6 @@ names = [el.text for el in name_els]
 
 for i in range(len(names)):
     name = names[i]
-    title = titles[i]
     print(f"Thank you {name}!")
 
 breakpoint()
